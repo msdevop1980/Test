@@ -1,0 +1,16 @@
+<configuration debug="true" scan="true" scanPeriod="10 seconds">
+
+    <jmxConfigurator/>
+    <ContextListener
+        class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+    <if condition ='isNull("logback.logdir")'>
+        <then>
+            <property name="logback.logdir" value="logs/sample"></property>
+        </then>
+    </if>
+
+    <property name="logback.rollingPatern" value="%d{yyyy.MM.dd}.%i.gz"/>
+    <property name="logback.fullPattern"
+              value="%d{yyyy.MM.dd}.%i.gz"/>
+
+</configuration>

@@ -1,5 +1,5 @@
 ft:
-  restPath:
+  restPath: /api/
   soapPath:
   requestHeader:
     Accept: application/json

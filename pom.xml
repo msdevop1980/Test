@@ -21,6 +21,8 @@
 		 <module>sample-dist</module>
         <module>sample-ft</module>
         <module>sample-common</module>
+		 <module>sample-model</module>
+		  <module>sample-integration</module>
     </modules>
 
 

@@ -1,0 +1,2 @@
+ft:
+  endPoint: http://${ENVI_ADDR:localhost}:${ENVI_PORT:8001/sample}

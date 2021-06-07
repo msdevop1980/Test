@@ -1,6 +1,0 @@
-ft:
-  restPath:
-  soapPath:
-  requestHeader:
-    Accept: application/json
-    Source: SAMPLE
